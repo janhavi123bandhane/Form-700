@@ -1,5 +1,5 @@
-import HexaContent from "../../ReuseableComponent/HexaContent";
-import HexagonCom from "../../ReuseableComponent/HexagonCom";
+import HexaContent from "../ReuseableComponent/HexaContent";
+import HexagonCom from "../ReuseableComponent/HexagonCom";
 import { PiWechatLogoFill } from "react-icons/pi";
 import { BsActivity } from "react-icons/bs";
 import { FaFileAlt } from "react-icons/fa";

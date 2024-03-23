@@ -23,10 +23,10 @@ function Nav03() {
       <div>
         <nav className="lg:w-full w-[60rem] md:w-[70rem] bg-[#101D30] h-[6rem] font-Roboto ">
           <div className="text-center text-white text-2xl font-bold">ADMIN</div>
-          <div className="flex justify-between ml-20 mr-20">
+          <div className="flex justify-between ml-20 mr-20 lg:space-x-72">
             {/* left side */}
 
-            <div className="flex space-x-20">
+            <div className="flex space-x-20 ">
               <img src={Logo} className=" w-28"></img>
               <div
                 className="hover:bg-white w-[8rem] h-[3rem]  text-center flex justify-center text-xl pt-2 hover:text-[#EA5455] rounded-lg text-white cursor-pointer"
@@ -40,12 +40,12 @@ function Nav03() {
 
             {/* right side */}
 
-            <div className="flex items-center mt-[-2rem]">
-              <FaSearch className="text-white text-3xl mr-4" />
+            <div className="flex items-center mt-[-2rem] ">
+              <FaSearch className="text-white text-2xl mr-4" />
               <div className="flex flex-col cursor-pointer"
               onClick={New1}
               >
-                <FaSortAmountDownAlt className="text-white w-20 h-10 mr-4" />
+                <FaSortAmountDownAlt className="text-white w-20 h-10 mr-4 text-2xl" />
                 <div className="ml-6 text-white">Sort By</div>
               </div>
               {Sort&&<SearchForm />}

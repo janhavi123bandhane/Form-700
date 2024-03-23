@@ -1,4 +1,4 @@
-import DivAbout from "../../ReuseableComponent/DivAbout";
+import DivAbout from "../ReuseableComponent/DivAbout";
 
 const About = () => {
   return (

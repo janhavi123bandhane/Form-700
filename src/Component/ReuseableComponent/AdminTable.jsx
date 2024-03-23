@@ -11,7 +11,7 @@ let AdminTable = ({ item1, item2, item3, item4, item5, item6 }) => {
         <td className="border border-gray-400 px-4 py-2">{item5}</td>
         <td className="border border-gray-400 px-4 py-2">{item6}</td>
         <td className="border border-gray-400 px-4 py-2">
-          <div className=" space-x-10">
+          <div className=" space-x-10 lg:text-lg text-md">
             <select className="border  px-2 py-1 rounded hover:text-[#EA5455]">
               <option value="option1" className="">
                 Option 1

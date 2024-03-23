@@ -8,7 +8,7 @@ import Logo from "/Images/Logo.jpg";
 import { FaSearch } from "react-icons/fa";
 import Button from "../ReuseableComponent/Button";
 
-function Nav() {
+function Nav2() {
   const [isWelcomeDropdownOpen, setIsWelcomeDropdownOpen] = useState(false);
   const [isMessageDropdownOpen, setIsMessageDropdownOpen] = useState(false);
   const [isSettingDropdownOpen, setIsSettingDropdownOpen] = useState(false);
@@ -111,4 +111,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Nav2;

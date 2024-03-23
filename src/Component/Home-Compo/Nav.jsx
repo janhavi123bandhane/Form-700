@@ -1,6 +1,7 @@
-import Button from '../../../ReuseableComponent/Button';
+import Button from '../ReuseableComponent/Button';
 import { IoIosLogOut } from "react-icons/io";
 import Logo from '/Images/Logo.jpg'
+import { Link } from 'react-router-dom'
 
 function Nav(){
     return(
@@ -14,15 +15,16 @@ function Nav(){
                alt="Logo"
                />
            </div>
-           
-           {/* <div className='lg:w-[8.5rem] lg:h-14 md:w-[6.5rem] md:h-12 w-[5rem] h-8 bg-[#FEB692] text-center hover:bg-[#FDD819] md:mr-10 mr-4 rounded-lg transition duration-300'>
-           <button className='mt-2 md:text-[20px] text-[13px] font-semibold text-white font-Roboto'>Login</button>
-           </div> */}
-           <Button
-           item2={"Login"}
-           tailwindClasses="lg:pl-10 md:pl-8 pl-6"
-           ></Button>
+             
             
+            <Link to={"/login"}>
+             <Button
+               item2="Login"
+               tailwindClasses="lg:pl-10 md:pl-8 pl-6"
+             />
+            </Link>
+            
+           
            </div>
            <div>
               <hr className='border-black mt-5'></hr>
