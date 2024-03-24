@@ -8,7 +8,7 @@ import Logo from "/Images/Logo.jpg";
 import { FaSearch } from "react-icons/fa";
 import Button from "../ReuseableComponent/Button";
 
-function Nav2() {
+function UserNav() {
   const [isWelcomeDropdownOpen, setIsWelcomeDropdownOpen] = useState(false);
   const [isMessageDropdownOpen, setIsMessageDropdownOpen] = useState(false);
   const [isSettingDropdownOpen, setIsSettingDropdownOpen] = useState(false);
@@ -54,8 +54,7 @@ function Nav2() {
             </div>
             {isWelcomeDropdownOpen && (
               <div className="absolute bg-white top-full left-0 mt-1 py-2 px-4 rounded-lg shadow">
-                <p className="text-black">Janhavi</p>
-                 <p className="text-black">Jagruti</p>
+                
               </div>
             )}
           </div>
@@ -70,8 +69,7 @@ function Nav2() {
             </div>
             {isMessageDropdownOpen && (
               <div className="absolute bg-white top-full left-0 mt-1 py-2 px-4 rounded-lg shadow">
-                 <p className="text-black">Janhavi</p>
-                 <p className="text-black">Jagruti</p>
+                 
               </div>
             )}
           </div>
@@ -86,8 +84,7 @@ function Nav2() {
             </div>
             {isSettingDropdownOpen && (
               <div className="absolute bg-white top-full left-0 mt-1 py-2 px-4 rounded-lg shadow">
-                <p className="text-black">Janhavi</p>
-                <p className="text-black">Jagruti</p>
+               
               </div>
             )}
           </div>
@@ -111,4 +108,4 @@ function Nav2() {
   );
 }
 
-export default Nav2;
+export default UserNav;

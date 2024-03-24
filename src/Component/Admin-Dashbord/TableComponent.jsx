@@ -4,7 +4,7 @@ import AdminTable from '../ReuseableComponent/AdminTable';
 
 const TableComponent = () => {
   return (
-    <div className="lg:w-full w-[60rem] md:w-[70rem]">
+    <div className="lg:w-full w-[60rem] md:w-[70rem] h-[100rem]">
       <table className="lg:w-full w-[60rem] md:w-[70rem]">
         <thead>
           <tr className="bg-gray-200 h-24">

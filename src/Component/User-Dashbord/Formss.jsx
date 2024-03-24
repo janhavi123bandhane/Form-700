@@ -4,7 +4,7 @@ function Formss() {
   return (
     <>
       <div className="border-black border-spacing-3 flex justify-center lg:w-full w-[60rem] md:w-[70rem]">
-        <div className="border border-black mt-4 lg:h-[50rem] lg:w-[60rem] md:w-[60rem] md:h-[50rem] h-[50rem] md:p-0 ">
+        <div className="border border-black mt-4 lg:h-[60rem] lg:w-[60rem] md:w-[60rem] md:h-[60rem] h-[60rem] md:p-0 ">
           {/* view nav */}
           <div className="bg-[#817d7d] lg:w-[60rem] md:w-[60rem] w-[50rem] h-11 pl-12 md:mt-0">View Form [1]</div>
 

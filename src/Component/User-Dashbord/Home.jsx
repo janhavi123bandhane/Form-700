@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <>
-      <div className="lg:w-full w-[50rem] md:w-[70rem]">
+      <div className="lg:w-full w-[50rem] md:w-[70rem] h-[90rem]">
         <div className="bg-[#D9D9D9] lg:w-full w-[60rem] md:w-[70rem] h-[3rem] font-Roboto flex text-black text-lg pt-2">
           &nbsp;&nbsp;<TiHomeOutline className=" mt-[0.2rem] "></TiHomeOutline>
           &nbsp;Home

@@ -8,7 +8,7 @@ import { FaSortAmountDownAlt } from "react-icons/fa";
 import Input from "./Input";
 import SearchForm from "./SortBy";
 
-function Nav03() {
+function AdminNav() {
   let [Incount, setInCount] = useState(false);
   let [Sort,setSort]=useState(false);
 
@@ -66,4 +66,4 @@ function Nav03() {
     </>
   );
 }
-export default Nav03;
+export default AdminNav;

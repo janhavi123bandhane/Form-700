@@ -14,13 +14,6 @@ import App from './App.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <BrowserRouter>
-      <App />
-      <Routes>
-       
-        <Route path="/login" element={<LoginPage></LoginPage>}></Route>
-     
-      </Routes>
-      </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
