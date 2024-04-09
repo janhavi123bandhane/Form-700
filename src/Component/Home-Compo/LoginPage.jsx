@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { IoMdContact } from "react-icons/io";
 import { IoLockClosedSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
     const [username, setUsername] = useState('');
@@ -16,7 +17,7 @@ const LoginPage = () => {
     };
 
     return (
-        <div className=' bg-slate-600 lg:w-full w-[60rem] md:w-[70rem] h-[60rem] flex justify-center items-center'>
+        <div className=' bg-slate-600 lg:w-full w-[60rem] md:w-[70rem] h-[73rem] flex justify-center items-center'>
           
             <form onSubmit={handleSubmit}>
                 <hr className=' border-white mb-16'></hr>
@@ -45,7 +46,9 @@ const LoginPage = () => {
                     />
                 </div>
                 <hr className=' border-white mt-16'></hr>
-                <button type="submit" className='bg-green-500 hover:bg-green-300 md:w-[8rem] md:h-[3rem] w-[6rem] h-[3rem] mt-16 ml-[16rem] text-white font-semibold rounded-lg'>Login</button>
+                 <Link to={"/User"}> 
+                    <button type="submit" className='bg-green-500 hover:bg-green-300 md:w-[8rem] md:h-[3rem] w-[6rem] h-[3rem] mt-16 ml-[16rem] text-white font-semibold rounded-lg'>Login</button>
+                </Link>
             </form>
         </div>
     );

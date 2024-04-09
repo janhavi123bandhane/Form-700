@@ -7,6 +7,7 @@ import { IoIosLogOut } from "react-icons/io";
 import Logo from "/Images/Logo.jpg";
 import { FaSearch } from "react-icons/fa";
 import Button from "../ReuseableComponent/Button";
+import { Link } from "react-router-dom";
 
 function UserNav() {
   const [isWelcomeDropdownOpen, setIsWelcomeDropdownOpen] = useState(false);
@@ -95,12 +96,14 @@ function UserNav() {
             <FaSearch />
           </div>
           
-            <Button
-              item1={
-                <IoIosLogOut className="lg:text-3xl md:text-2xl text-xl md:ml-3 ml-2" />
-              }
-              item2={"Logout"}
-            ></Button>
+           <Link to={"/"}>
+             <Button
+                item1={
+                  <IoIosLogOut className="lg:text-3xl md:text-2xl text-xl md:ml-3 ml-2 mt-3" />
+                }
+                item2={"Logout"}
+              ></Button>
+           </Link>
          
         </div>
       </div>

@@ -6,7 +6,7 @@ const Button = ({ item1, item2,tailwindClasses }) => {
         <div className={combinedClasses}>
           <button className="md:mt-3 mt-2 text-white font-Roboto flex">
             {item1}
-            <div className="lg:text-[20px] md:text-[17px] text-[14px] font-semibold ">
+            <div className="lg:text-[20px] md:text-[17px] text-[14px] font-semibold pt-3">
               {item2}
             </div>
           </button>

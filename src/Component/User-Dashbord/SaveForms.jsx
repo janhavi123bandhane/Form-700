@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import UserCom from "../ReuseableComponent/UserCom";
 import UserFormNav from "../ReuseableComponent/UserFormNav";
 import UserTable from "../ReuseableComponent/UserTable";
@@ -7,7 +8,7 @@ function SaveForm() {
     <>
       <div>
         <div className="font-Roboto lg:w-full w-[60rem] h-[100rem] md:w-[70rem]">
-          <UserFormNav item1={" Home > Save Form"}></UserFormNav>
+          <Link to={"/user"}><UserFormNav item1={" Home > Save Form"}></UserFormNav></Link>
 
           <div className="text-3xl ml-10 m-10 text-[#666363]">
             All Save Form

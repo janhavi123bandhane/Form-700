@@ -30,16 +30,16 @@ function App() {
        <About></About>
        <Footer></Footer>    
         {/*admin  */}
-       <AdminNav />
-       <TableComponent></TableComponent>
+       {/* <AdminNav />
+       <TableComponent></TableComponent> */}
        {/* user */}
-       <UserNav></UserNav>
+       {/* <UserNav></UserNav>
        <Dashbord></Dashbord>
        <SubmitForm></SubmitForm>
        <Home></Home>
        <SaveForm></SaveForm>
        <CurrentWork></CurrentWork>
-       <ViewForm></ViewForm>
+       <ViewForm></ViewForm> */}
     </>
   )
 }

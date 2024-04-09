@@ -3,13 +3,14 @@ import { PiListDashesBold } from "react-icons/pi";
 import UserTable from "../ReuseableComponent/UserTable";
 import UserFormNav from "../ReuseableComponent/UserFormNav";
 import UserCom from "../ReuseableComponent/UserCom";
+import { Link } from "react-router-dom";
 
 function SubmitForm() {
   return (
     <>
       <div className="font-Roboto lg:w-full w-[60rem] h-[100rem] md:w-[70rem]">
 
-        <UserFormNav item1={" Home > Submit Form"}></UserFormNav>
+      <Link to={"/user"}><UserFormNav item1={" Home > Submit Form"}></UserFormNav></Link>
 
         <div className="text-3xl ml-10 m-10 text-[#666363]">
           All Submit Form

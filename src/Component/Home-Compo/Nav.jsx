@@ -18,10 +18,12 @@ function Nav(){
              
             
            
-             <Button
-               item2="Login"
-               tailwindClasses="lg:pl-10 md:pl-8 pl-6"
-             />
+            <Link to={"/login"}>
+              <Button
+                 item2="Login"
+                 tailwindClasses="lg:pl-10 md:pl-8 pl-6"
+               />
+            </Link>
           
             
            
